@@ -37,7 +37,7 @@ Author:
 
 Kevin Le, MS, University of Chicago
 
-If you have any question, please contact Kevin Le via email at
+If you have any question about the coding or installation, please contact Kevin Le via email at
 
 Email: kle@bsd.uchicago.edu or minhkevin@gmail.com
 
