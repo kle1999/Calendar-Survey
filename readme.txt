@@ -1,6 +1,3 @@
-This work is provided for free distribution by Kevin Le, MS.
-Center for Research Informatics, The University of Chicago, Chicago, Illinois
-
 About:
 ======
 
@@ -51,7 +48,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Acknowlegements:
 ===============
 
-Patrick McNamara, Sandra Yu Rueger, PHD, Constantine J.Trela, B.A, Michael Palmeri, B.S, and Andrea C. King Ph.D
+The author extends appreciation to Patrick McNamara, MS, Sandra Yu Rueger, PHD, Constantine J.Trela, B.A, 
+Michael Palmeri, B.S, and Andrea C. King Ph.D for their guidence with study design and implementation of 
+the self-administered web-based TLFB-O
 
 Department of Psychiatry and Behavioral Neuroscience, Pritzker School of Medicine, 
 The University of Chicago, Chicago, Illinois; 
