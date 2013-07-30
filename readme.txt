@@ -1,8 +1,7 @@
 About:
 ======
 
-The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was developed by Sobell et al. (1986) to derive subjects' retrospective daily estimates of alcohol consumption patterns. Using a calendar as a visual aid,
-special events, and other memory cues, subjects are guided through the process of recalling and reporting daily drinking estimates.
+The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was developed by Sobell et al. (1986) to derive subjects' retrospective daily estimates of alcohol consumption patterns. Using a calendar as a visual aid, special events, and other memory cues, subjects are guided through the process of recalling and reporting daily drinking estimates.
 
 
 Installation:
