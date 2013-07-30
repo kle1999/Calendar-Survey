@@ -1,4 +1,4 @@
-This work is provided for free distribution by Kevin Le, 
+This work is provided for free distribution by Kevin Le, MS.
 Center for Research Informatics, The University of Chicago, Chicago, Illinois
 
 About:
