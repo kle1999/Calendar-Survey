@@ -1,10 +1,8 @@
 About:
 ======
 
-The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was developed by Sobell et al. (1986) to 
-derive subjects' retrospective daily estimates of alcohol consumption patterns. Using a calendar as a visual aid,
-special events, and other memory cues, subjects are guided through the process of recalling and reporting daily 
-drinking estimates.
+The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was developed by Sobell et al. (1986) to derive subjects' retrospective daily estimates of alcohol consumption patterns. Using a calendar as a visual aid,
+special events, and other memory cues, subjects are guided through the process of recalling and reporting daily drinking estimates.
 
 
 Installation:
@@ -29,7 +27,6 @@ Kevin Le, MS, University of Chicago
 If you have any question about the coding or installation, please contact Kevin Le via email at
 
 Email: kle@bsd.uchicago.edu or minhkevin@gmail.com
-
 Phone: 773 484 8841 or 773 279 1816
 
 
@@ -48,13 +45,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Acknowlegements:
 ===============
 
-The author extends appreciation to Patrick McNamara, MS, Sandra Yu Rueger, PHD, Constantine J.Trela, B.A, 
-Michael Palmeri, B.S, and Andrea C. King Ph.D for their guidence with study design and implementation of 
-the self-administered web-based TLFB-O
+The author extends appreciation to Patrick McNamara, MS, Sandra Yu Rueger, PHD, Constantine J.Trela, B.A, Michael Palmeri, B.S, and Andrea C. King Ph.D for their guidence with study design and implementation of the self-administered web-based TLFB-O
 
-Department of Psychiatry and Behavioral Neuroscience, Pritzker School of Medicine, 
-The University of Chicago, Chicago, Illinois; 
+Department of Psychiatry and Behavioral Neuroscience, Pritzker School of Medicine, The University of Chicago, Chicago, Illinois; 
 Department of Psychology, Wheaton College, Wheaton, Illinois
 
-The Center for Research Informatics is funded by the Biological Sciences Division at the University of Chicago 
-with additional funding provided by the Institute for Translational Medicine, CTSA grant number UL1 RR024999 from the National Institutes of Health.
+The Center for Research Informatics is funded by the Biological Sciences Division at the University of Chicago with additional funding provided by the Institute for Translational Medicine, CTSA grant number UL1 RR024999 from the National Institutes of Health.
