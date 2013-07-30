@@ -1,13 +1,5 @@
-This work is provided for free distribution by Kevin Le, Patrick McNamara,
-Sandra Yu Rueger, PHD, Constantine J.Trela, B.A, Michael Palmeri, B.S, and Andrea C. King Ph.D
-
+This work is provided for free distribution by Kevin Le, 
 Center for Research Informatics, The University of Chicago, Chicago, Illinois
-Department of Psychiatry and Behavioral Neuroscience, Pritzker School of Medicine, 
-The University of Chicago, Chicago, Illinois; 
-Department of Psychology, Wheaton College, Wheaton, Illinois
-
-Please see Copyright and License below for more details
-
 
 About:
 ======
@@ -16,7 +8,6 @@ The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was develop
 derive subjects' retrospective daily estimates of alcohol consumption patterns. Using a calendar as a visual aid,
 special events, and other memory cues, subjects are guided through the process of recalling and reporting daily 
 drinking estimates.
-
 
 
 Installation:
@@ -59,6 +50,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 Acknowlegements:
 ===============
+
+Patrick McNamara, Sandra Yu Rueger, PHD, Constantine J.Trela, B.A, Michael Palmeri, B.S, and Andrea C. King Ph.D
+
+Department of Psychiatry and Behavioral Neuroscience, Pritzker School of Medicine, 
+The University of Chicago, Chicago, Illinois; 
+Department of Psychology, Wheaton College, Wheaton, Illinois
 
 The Center for Research Informatics is funded by the Biological Sciences Division at the University of Chicago 
 with additional funding provided by the Institute for Translational Medicine, CTSA grant number UL1 RR024999 from the National Institutes of Health.
