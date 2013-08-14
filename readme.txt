@@ -7,26 +7,33 @@ The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was develop
 Installation:
 ============
 
-1. Download the follwow two files (a)calendarSurveyScript (b)calendarSurveySouceCode
+1. Download the following two files (a)calendarSurveyScript (b)calendarSurveySouceCode
 2. Open MS SQL Server.
 3. Open Notepad, Copy and paste the CalendarSurvey script to the SQL server to create a new "CalendarSurvey" database.
-4. Grant proper user name and password to the new database.
-5. Unzip the "CalendarSurveySourceCode" to your web server root directory. Rename this directory as your choice.
- Normally the web root directory is located in c:/inetpub/www/
-6. Modify the "web.config" file which is located in the root directory of the unzip "calendarSurveySourceCode" and look for the following line and change the property for the databse connection.
+4. In MSSQL, create a new account, the role for this account should be assigned as database owner for the new database "CalendarSurvey".
+5. In MSSQL, open the "CalendarSurvey" database, open table "investigators". This is the table where you can either using the web application interface to enter new login ID and password for new participant ID.  There is a default user with administrator right for the application has user name "admin" and password "admin".  Please change this default password.
+5. Unzip the "CalendarSurveySourceCode" to your web server root directory. Rename this directory based on your preference. Normally the web root directory is located in c:/inetpub/www/
+6. Modify the "web.config" file which is located in the root directory of the unzip "calendarSurveySourceCode" and look for the following line and change the properties for the databsse connection string.
 
          <add key="ConnectionString" value="server=yourDatabaseServerIPAddress;uid='LoginIDForTheCalendarSurvey';password='PasswordForTheCalendarSurvey';initial catalog='NameOfCalendarSurveyDatabase' "/>
+
+In the above connection string replace 
+1. "yourDatabaseServerIPAddress" with your database server IP address,
+2. "uid" with the login ID you created in step 4 above
+3. "PasswordForTheCalendarSurvey" with the password for the account you created in step 4 above
+4. "NameOfCalendarSurveyDatabase" with the name of the databbase you created in step 3 above.
+
 
 
 Author:
 =======
 
-Kevin Le, MS, University of Chicago
+Kevin Le, MS, Center for Research Informatics, University of Chicago
 
-If you have any question about the coding or installation, please contact Kevin Le via email at
+If you have any questions about the coding or installation, please contact Kevin Le via email at
 
-Email: kle@bsd.uchicago.edu or minhkevin@gmail.com
-Phone: 773 484 8841 or 773 279 1816
+Email: kle@bsd.uchicago.edu
+Phone: 773 484 8841
 
 
 Copyright and License:
@@ -41,12 +48,10 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-Acknowlegements:
+Acknowledgements:
 ===============
 
-The author extends appreciation to Patrick McNamara, MS, Sandra Yu Rueger, PHD, Constantine J.Trela, B.A, Michael Palmeri, B.S, and Andrea C. King Ph.D for their guidence with study design and implementation of the self-administered web-based TLFB-O
+The author extends appreciation to Patrick McNamara and Andrea King, Department of Psychiatry and Behavioral Neuroscience, The University of Chicago, Chicago, Illinois, Sandra Yu Rueger, Department of Psychology, Wheaton College, Wheaton, Illinois for their guidance with study design and implementation of the self-administered web-based O-TLFB
 
-Department of Psychiatry and Behavioral Neuroscience, Pritzker School of Medicine, The University of Chicago, Chicago, Illinois; 
-Department of Psychology, Wheaton College, Wheaton, Illinois
 
 The Center for Research Informatics is funded by the Biological Sciences Division at the University of Chicago with additional funding provided by the Institute for Translational Medicine, CTSA grant number UL1 RR024999 from the National Institutes of Health.
