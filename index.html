@@ -31,37 +31,60 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+        <h1>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About:</h1>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was developed by Sobell et al. (1986) to derive subjects' retrospective daily estimates of alcohol consumption patterns. Using a calendar as a visual aid, special events, and other memory cues, subjects are guided through the process of recalling and reporting daily drinking estimates.</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<h1>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation:</h1>
+
+<ol>
+<li>Download the following two files (a)calendarSurveyScript (b)calendarSurveySouceCode</li>
+<li>Open MS SQL Server.</li>
+<li>Open Notepad, Copy and paste the CalendarSurvey script to the SQL server to create a new "CalendarSurvey" database.</li>
+<li>In MSSQL, create a new account, the role for this account should be assigned as database owner for the new database "CalendarSurvey".</li>
+<li>In MSSQL, open the "CalendarSurvey" database, open table "investigators". This is the table where you can either using the web application interface to enter new login ID and password for new participant ID.  There is a default user with administrator right for the application has user name "admin" and password "admin".  Please change this default password.</li>
+<li>Unzip the "CalendarSurveySourceCode" to your web server root directory. Rename this directory based on your preference. Normally the web root directory is located in c:/inetpub/www/</li>
+<li>
+<p>Modify the "web.config" file which is located in the root directory of the unzip "calendarSurveySourceCode" and look for the following line and change the properties for the databsse connection string.</p>
+
+<pre><code> &lt;add key="ConnectionString" value="server=yourDatabaseServerIPAddress;uid='LoginIDForTheCalendarSurvey';password='PasswordForTheCalendarSurvey';initial catalog='NameOfCalendarSurveyDatabase' "/&gt;
 </code></pre>
+</li>
+</ol><p>In the above connection string replace 
+1. "yourDatabaseServerIPAddress" with your database server IP address,
+2. "uid" with the login ID you created in step 4 above
+3. "PasswordForTheCalendarSurvey" with the password for the account you created in step 4 above
+4. "NameOfCalendarSurveyDatabase" with the name of the databbase you created in step 3 above.</p>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<h1>
+<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author:</h1>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<p>Kevin Le, MS, Center for Research Informatics, University of Chicago</p>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<p>If you have any questions about the coding or installation, please contact Kevin Le via email at</p>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<p>Email: <a href="mailto:kle@bsd.uchicago.edu">kle@bsd.uchicago.edu</a>
+Phone: 773 484 8841</p>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<h1>
+<a name="copyright-and-license" class="anchor" href="#copyright-and-license"><span class="octicon octicon-link"></span></a>Copyright and License:</h1>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<p>Copyright (c) 2013 Kevin Le</p>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+<h1>
+<a name="acknowledgements" class="anchor" href="#acknowledgements"><span class="octicon octicon-link"></span></a>Acknowledgements:</h1>
+
+<p>The author extends appreciation to Patrick McNamara and Andrea King, Department of Psychiatry and Behavioral Neuroscience, The University of Chicago, Chicago, Illinois, Sandra Yu Rueger, Department of Psychology, Wheaton College, Wheaton, Illinois for their guidance with study design and implementation of the self-administered web-based O-TLFB</p>
+
+<p>The Center for Research Informatics is funded by the Biological Sciences Division at the University of Chicago with additional funding provided by the Institute for Translational Medicine, CTSA grant number UL1 RR024999 from the National Institutes of Health.</p>
       </section>
     </div>
 
