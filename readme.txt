@@ -7,11 +7,11 @@ The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was develop
 Installation:
 ============
 
-1. Download the following two files (a)calendarSurveyScript (b)calendarSurveySouceCode
+1. Download the zip file above and unzip it or you can down the two files (a)calendarSurveyScript (b)calendarSurveySouceCode to your web server.
 2. Open MS SQL Server.
-3. Open Notepad, Copy and paste the CalendarSurvey script to the SQL server to create a new "CalendarSurvey" database.
-4. In MSSQL, create a new account, the role for this account should be assigned as database owner for the new database "CalendarSurvey".
-5. In MSSQL, open the "CalendarSurvey" database, open table "investigators". This is the table where you can either using the web application interface to enter new login ID and password for new participant ID.  There is a default user with administrator right for the application has user name "admin" and password "admin".  Please change this default password.
+3. Open Notepad, copy,paste and run the CalendarSurveyScript to the SQL server to create a new "CalendarSurvey" database.
+4. In MSSQL, create a new account with a role as database owner for the new database "CalendarSurvey".
+5. In MSSQL, use the "CalendarSurvey" database, open table "investigators". This is the table where you use to enter new login ID and password for new participant ID.  There is a default user with administrator right for the application has user name "admin" and password "admin".  Please change this default password.
 5. Unzip the "CalendarSurveySourceCode" to your web server root directory. Rename this directory based on your preference. Normally the web root directory is located in c:/inetpub/www/
 6. Modify the "web.config" file which is located in the root directory of the unzip "calendarSurveySourceCode" and look for the following line and change the properties for the databsse connection string.
 
