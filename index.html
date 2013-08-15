@@ -4,11 +4,11 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Calendarsurvey : The TIMELINE FOLLOWBACK (TLFB)  is a web based designed by the Kevin Le, MS, Center for Research Informatics at the University of Chicago. " />
+    <meta name="description" content="Calendar Survey :  TIMELINE FOLLOWBACK (TLFB) Calendar Survey" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Calendarsurvey</title>
+    <title>Calendar Survey</title>
   </head>
 
   <body>
@@ -16,14 +16,14 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/kle1999/CalendarSurvey">View on GitHub</a>
+          <a id="forkme_banner" href="https://github.com/kle1999/Calendar-Survey">View on GitHub</a>
 
-          <h1 id="project_title">Calendarsurvey</h1>
-          <h2 id="project_tagline">The TIMELINE FOLLOWBACK (TLFB)  is a web based designed by the Kevin Le, MS, Center for Research Informatics at the University of Chicago. </h2>
+          <h1 id="project_title">Calendar Survey</h1>
+          <h2 id="project_tagline"> TIMELINE FOLLOWBACK (TLFB) Calendar Survey</h2>
 
             <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/kle1999/CalendarSurvey/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/kle1999/CalendarSurvey/tarball/master">Download this project as a tar.gz file</a>
+              <a class="zip_download_link" href="https://github.com/kle1999/Calendar-Survey/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/kle1999/Calendar-Survey/tarball/master">Download this project as a tar.gz file</a>
             </section>
         </header>
     </div>
@@ -34,17 +34,17 @@
         <h1>
 <a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About:</h1>
 
-<p>The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was developed by Sobell et al. (1986) to derive subjects' retrospective daily estimates of alcohol consumption patterns. Using a calendar as a visual aid, special events, and other memory cues, subjects are guided through the process of recalling and reporting daily drinking estimates.</p>
+<p>The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was developed and copyrighted by Sobell &amp; Sobell (2000). The TLFB derives subjects' retrospective daily estimates of alcohol consumption patterns. Using a calendar as a visual aid, special events, and other memory cues, subjects are guided through the process of recalling and reporting daily drinking estimates.</p>
 
 <h1>
 <a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation:</h1>
 
 <ol>
-<li>Download the following two files (a)calendarSurveyScript (b)calendarSurveySouceCode</li>
+<li>Download the zip file above and unzip it or you can down the two files (a)calendarSurveyScript (b)calendarSurveySouceCode to your web server.</li>
 <li>Open MS SQL Server.</li>
-<li>Open Notepad, Copy and paste the CalendarSurvey script to the SQL server to create a new "CalendarSurvey" database.</li>
-<li>In MSSQL, create a new account, the role for this account should be assigned as database owner for the new database "CalendarSurvey".</li>
-<li>In MSSQL, open the "CalendarSurvey" database, open table "investigators". This is the table where you can either using the web application interface to enter new login ID and password for new participant ID.  There is a default user with administrator right for the application has user name "admin" and password "admin".  Please change this default password.</li>
+<li>Open Notepad, copy, paste and run the CalendarSurveyScript to the SQL server to create a new "CalendarSurvey" database.</li>
+<li>In MSSQL, create a new account with a role as database owner for the new database "CalendarSurvey".</li>
+<li>In MSSQL, use the "CalendarSurvey" database, open table "investigators". This is the table where you use to enter new login ID and password for new participant ID.  There is a default user with administrator right for the application has user name "admin" and password "admin".  Please change this default password.</li>
 <li>Unzip the "CalendarSurveySourceCode" to your web server root directory. Rename this directory based on your preference. Normally the web root directory is located in c:/inetpub/www/</li>
 <li>
 <p>Modify the "web.config" file which is located in the root directory of the unzip "calendarSurveySourceCode" and look for the following line and change the properties for the databsse connection string.</p>
@@ -63,26 +63,29 @@
 
 <p>Kevin Le, MS, Center for Research Informatics, University of Chicago</p>
 
-<p>If you have any questions about the coding or installation, please contact Kevin Le via email at</p>
+<p>If you have any questions about the coding or installation, please contact</p>
 
-<p>Email: <a href="mailto:kle@bsd.uchicago.edu">kle@bsd.uchicago.edu</a>
+<p>Kevin Le, MS, University of Chicago
+5751 S. Woodlawn Dr. Suite 404
+Chicago, IL. 60637
+Email: <a href="mailto:kle@bsd.uchicago.edu">kle@bsd.uchicago.edu</a>
 Phone: 773 484 8841</p>
 
 <h1>
-<a name="copyright-and-license" class="anchor" href="#copyright-and-license"><span class="octicon octicon-link"></span></a>Copyright and License:</h1>
+<a name="copyright-and-license-information" class="anchor" href="#copyright-and-license-information"><span class="octicon octicon-link"></span></a>Copyright and License information:</h1>
 
-<p>Copyright (c) 2013 Kevin Le</p>
+<p>The code for the Online TLFB (O-TLFB) is copyright pending by Kevin Le, MS, Center for Research Informatics, University of Chicago</p>
 
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, and/or modify copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 
-<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>The above copyright pending notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
 
 <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 
 <h1>
 <a name="acknowledgements" class="anchor" href="#acknowledgements"><span class="octicon octicon-link"></span></a>Acknowledgements:</h1>
 
-<p>The author extends appreciation to Patrick McNamara and Andrea King, Department of Psychiatry and Behavioral Neuroscience, The University of Chicago, Chicago, Illinois, Sandra Yu Rueger, Department of Psychology, Wheaton College, Wheaton, Illinois for their guidance with study design and implementation of the self-administered web-based O-TLFB</p>
+<p>Appreciation is extended to Patrick McNamara and Andrea King, Department of Psychiatry and Behavioral Neuroscience, The University of Chicago, Chicago, Illinois, and Sandra Yu Rueger, Department of Psychology, Wheaton College, Wheaton, Illinois for their guidance with study design and implementation of the self-administered web-based O-TLFB</p>
 
 <p>The Center for Research Informatics is funded by the Biological Sciences Division at the University of Chicago with additional funding provided by the Institute for Translational Medicine, CTSA grant number UL1 RR024999 from the National Institutes of Health.</p>
       </section>
@@ -91,7 +94,7 @@ Phone: 773 484 8841</p>
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Calendarsurvey maintained by <a href="https://github.com/kle1999">kle1999</a></p>
+        <p class="copyright">Calendar Survey maintained by <a href="https://github.com/kle1999">kle1999</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
