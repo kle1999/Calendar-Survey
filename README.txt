@@ -35,12 +35,15 @@ Email: kle@bsd.uchicago.edu
 Phone: 773 484 8841
 
 Copyright and License information:
-============================
+=================================
 
 The code for the Online TLFB (O-TLFB) is copyright pending by Kevin Le, MS, Center for Research Informatics, University of Chicago
 
-If you have any questions about the coding or installation, please contact Kevin Le via email at
+If you have any questions about the coding or installation, please contact
 
+Kevin Le, MS, University of Chicago
+5751 S. Woodlawn Dr. Suite 404
+Chicago, IL. 60637
 Email: kle@bsd.uchicago.edu
 Phone: 773 484 8841
 
