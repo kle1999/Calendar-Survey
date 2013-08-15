@@ -1,17 +1,17 @@
-About:
+AAbout:
 ======
 
-The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was developed by Sobell et al. (1986) to derive subjects' retrospective daily estimates of alcohol consumption patterns. Using a calendar as a visual aid, special events, and other memory cues, subjects are guided through the process of recalling and reporting daily drinking estimates.
+The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was developed and copyrighted by Sobell & Sobell (2000). The TLFB derives subjects' retrospective daily estimates of alcohol consumption patterns. Using a calendar as a visual aid, special events, and other memory cues, subjects are guided through the process of recalling and reporting daily drinking estimates.
 
 
 Installation:
 ============
 
-1. Download the following two files (a)calendarSurveyScript (b)calendarSurveySouceCode
+1. Download the zip file above and unzip it or you can down the two files (a)calendarSurveyScript (b)calendarSurveySouceCode to your web server.
 2. Open MS SQL Server.
-3. Open Notepad, Copy and paste the CalendarSurvey script to the SQL server to create a new "CalendarSurvey" database.
-4. In MSSQL, create a new account, the role for this account should be assigned as database owner for the new database "CalendarSurvey".
-5. In MSSQL, open the "CalendarSurvey" database, open table "investigators". This is the table where you can either using the web application interface to enter new login ID and password for new participant ID.  There is a default user with administrator right for the application has user name "admin" and password "admin".  Please change this default password.
+3. Open Notepad, copy, paste and run the CalendarSurveyScript to the SQL server to create a new "CalendarSurvey" database.
+4. In MSSQL, create a new account with a role as database owner for the new database "CalendarSurvey".
+5. In MSSQL, use the "CalendarSurvey" database, open table "investigators". This is the table where you use to enter new login ID and password for new participant ID.  There is a default user with administrator right for the application has user name "admin" and password "admin".  Please change this default password.
 5. Unzip the "CalendarSurveySourceCode" to your web server root directory. Rename this directory based on your preference. Normally the web root directory is located in c:/inetpub/www/
 6. Modify the "web.config" file which is located in the root directory of the unzip "calendarSurveySourceCode" and look for the following line and change the properties for the databsse connection string.
 
@@ -24,9 +24,8 @@ In the above connection string replace
 4. "NameOfCalendarSurveyDatabase" with the name of the databbase you created in step 3 above.
 
 
-
 Author:
-=======
+======
 
 Kevin Le, MS, Center for Research Informatics, University of Chicago
 
@@ -35,15 +34,20 @@ If you have any questions about the coding or installation, please contact Kevin
 Email: kle@bsd.uchicago.edu
 Phone: 773 484 8841
 
+Copyright and License information:
+============================
 
-Copyright and License:
-=====================
+The code for the Online TLFB (O-TLFB) is copyright pending by Kevin Le, MS, Center for Research Informatics, University of Chicago
 
-Copyright (c) 2013 Kevin Le
+If you have any questions about the coding or installation, please contact Kevin Le via email at
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Email: kle@bsd.uchicago.edu
+Phone: 773 484 8841
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, and/or modify copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright pending notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
@@ -51,7 +55,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Acknowledgements:
 ===============
 
-The author extends appreciation to Patrick McNamara and Andrea King, Department of Psychiatry and Behavioral Neuroscience, The University of Chicago, Chicago, Illinois, Sandra Yu Rueger, Department of Psychology, Wheaton College, Wheaton, Illinois for their guidance with study design and implementation of the self-administered web-based O-TLFB
+Appreciation is extended to Patrick McNamara and Andrea King, Department of Psychiatry and Behavioral Neuroscience, The University of Chicago, Chicago, Illinois, and Sandra Yu Rueger, Department of Psychology, Wheaton College, Wheaton, Illinois for their guidance with study design and implementation of the self-administered web-based O-TLFB
 
 
 The Center for Research Informatics is funded by the Biological Sciences Division at the University of Chicago with additional funding provided by the Institute for Translational Medicine, CTSA grant number UL1 RR024999 from the National Institutes of Health.
