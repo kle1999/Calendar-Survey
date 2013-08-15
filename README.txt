@@ -29,16 +29,6 @@ Author:
 
 Kevin Le, MS, Center for Research Informatics, University of Chicago
 
-If you have any questions about the coding or installation, please contact Kevin Le via email at
-
-Email: kle@bsd.uchicago.edu
-Phone: 773 484 8841
-
-Copyright and License information:
-=================================
-
-The code for the Online TLFB (O-TLFB) is copyright pending by Kevin Le, MS, Center for Research Informatics, University of Chicago
-
 If you have any questions about the coding or installation, please contact
 
 Kevin Le, MS, University of Chicago
@@ -48,6 +38,11 @@ Email: kle@bsd.uchicago.edu
 Phone: 773 484 8841
 
 
+Copyright and License information:
+=================================
+
+The code for the Online TLFB (O-TLFB) is copyright pending by Kevin Le, MS, Center for Research Informatics, University of Chicago
+
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, and/or modify copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright pending notice and this permission notice shall be included in all copies or substantial portions of the Software.
@@ -56,7 +51,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 Acknowledgements:
-===============
+================
 
 Appreciation is extended to Patrick McNamara and Andrea King, Department of Psychiatry and Behavioral Neuroscience, The University of Chicago, Chicago, Illinois, and Sandra Yu Rueger, Department of Psychology, Wheaton College, Wheaton, Illinois for their guidance with study design and implementation of the self-administered web-based O-TLFB
 
