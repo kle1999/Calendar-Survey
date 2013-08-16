@@ -12,7 +12,7 @@ Installation:
 3. Open Notepad, copy, paste and run the CalendarSurveyScript to the SQL server to create a new "CalendarSurvey" database.
 4. In MSSQL, create a new account with a role as database owner for the new database "CalendarSurvey".
 5. In MSSQL, use the "CalendarSurvey" database, open table "investigators". This is the table where you use to enter new login ID and password for new participant ID.  There is a default user with administrator right for the application has user name "admin" and password "admin".  Please change this default password.
-5. Unzip the "CalendarSurveySourceCode" to your web server root directory. Rename this directory based on your preference. Normally the web root directory is located in c:/inetpub/www/
+5. Unzip the "CalendarSurveySourceCode" to your web server root directory. Copy this folder "carl" to your web root directory . Normally the web root directory is located in c:/inetpub/www/
 6. Modify the "web.config" file which is located in the root directory of the unzip "calendarSurveySourceCode" and look for the following line and change the properties for the databsse connection string.
 
          <add key="ConnectionString" value="server=yourDatabaseServerIPAddress;uid='LoginIDForTheCalendarSurvey';password='PasswordForTheCalendarSurvey';initial catalog='NameOfCalendarSurveyDatabase' "/>
@@ -57,3 +57,6 @@ Appreciation is extended to Patrick McNamara and Andrea King, Department of Psyc
 
 
 The Center for Research Informatics is funded by the Biological Sciences Division at the University of Chicago with additional funding provided by the Institute for Translational Medicine, CTSA grant number UL1 RR024999 from the National Institutes of Health.
+
+Commit summary: Extended description: (optional)
+kle1999 minhkevin@gmail.com
