@@ -6,9 +6,11 @@ The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was develop
 Requirement for installing the TLFB:
 ===================================
 
-The requirment for install the TLFB is simple and mostly can be done by any one with basics knowledges of Window Server. Depending on your institution, we suggest that you install the Web application server on a separate Window Server box while the database is on a separate box. 
+The requirment for installing the TLFB is simple and can be done by any one with basics knowledges of Window Server. Depending on your institution, we suggest that you install the Web application server on a separate Window Server box while the database is on a separate box. 
 
 The web server is preferably a Window server with Internet Information Services (IIS) installed. This box will need to be able to communite with a MS SQL server box using port 1433. 
+
+The installer will need to have full administrative right on the Web Server as well as the SQL Server. He/She will also neeed to have administrative right for the MSSQL instance running by the MSSQL Server.
 
 
 
