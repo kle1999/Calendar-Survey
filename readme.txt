@@ -11,7 +11,7 @@ Installation:
 2. Open MSSQL Server.
 3. Create a new database "calendarSurvey".  
 4. Open Notepad, copy, paste and run the CalendarSurveyScript.sql on the new "calendarSurvey" database created above.
-5. In MSSQL, create a new account with a role as database owner for the new database "CalendarSurvey". This is the account you will use to insert in your connection string.
+5. In MSSQL, create a new account with a role as database owner for the new database "calendarSurvey". This is the account you will use to insert in your connection string.
 6. In MSSQL, use the "calendarSurvey" database, open table "investigators". This is the table where you use to enter new login ID and password for new participant ID.
 7. In table "investigators" add a new row with the following data: user name "admin" to column "username" and password "password" to column "password", a start date e.g. "10/20/2013" to column "startDate", an end date e.g. "12/12/2013" and "21" to column "role".
 8. Unzip the "CalendarSurveySourceCode" to your web server root directory. Copy this folder "carl" to your web root directory . Normally the web root directory is located in c:/inetpub/www/
