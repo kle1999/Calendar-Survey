@@ -21,7 +21,7 @@ Installation:
 
 In the above connection string replace 
 1. "yourDatabaseServerIPAddress" with your database server IP address,
-2. "uid" with the login ID you created in step 4 above
+2. "uid" with the login ID you created in step 5 above
 3. "PasswordForTheCalendarSurvey" with the password for the account you created in step 4 above
 4. "NameOfCalendarSurveyDatabase" with the name of the databbase you created in step 3 above.
 
